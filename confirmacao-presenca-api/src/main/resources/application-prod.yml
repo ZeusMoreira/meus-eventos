@@ -4,9 +4,9 @@ spring:
 
   datasource:
     url: jdbc:postgresql://postgres:5432/eventos-db
+    driver-class-name: org.postgresql.Driver
     username: ${POSTGRES_USER}
     password: ${POSTGRES_PASSWORD}
-    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
@@ -20,13 +20,29 @@ spring:
     password: ${POSTGRES_PASSWORD}
     enabled: true
 
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${EMAIL_APP}
+    password: ${SENHA_APP}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.gmail.com
+
 cors:
-  allowed-origins: "https://meuseventos.com"
+  allowed-origins: "http://72.60.142.67"
 
 app:
-  frontend-url: https://meuseventos.com
+  frontend-url: http://72.60.142.67
   jwt-secret: ${JWT_SECRET}
   jwt-expiration-ms: 1800000
 
 server:
   port: 8080
+  servlet:
+    context-path: /api
