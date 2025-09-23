@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: confirmacao-presenca-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eventos-db
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  liquibase:
+    change-log: classpath:database/master.xml
+    url: jdbc:postgresql://localhost:5432/eventos-db?createDatabaseIfNotExist=true
+    user: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    enabled: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${EMAIL_APP}
+    password: ${SENHA_APP}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.gmail.com
+
+cors:
+  allowed-origins: "http://localhost:5173"
+
+app:
+  frontend-url: http://localhost:5173
+  jwt-secret: ${JWT_SECRET}
+  jwt-expiration-ms: 1800000
+
+server:
+  port: 8080

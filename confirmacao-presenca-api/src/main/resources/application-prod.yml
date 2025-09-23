@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: confirmacao-presenca-api
+
+  datasource:
+    url: jdbc:postgresql://postgres:5432/eventos-db
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+
+  liquibase:
+    change-log: classpath:database/master.xml
+    url: jdbc:postgresql://postgres:5432/eventos-db?createDatabaseIfNotExist=true
+    user: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    enabled: true
+
+cors:
+  allowed-origins: "https://meuseventos.com"
+
+app:
+  frontend-url: https://meuseventos.com
+  jwt-secret: ${JWT_SECRET}
+  jwt-expiration-ms: 1800000
+
+server:
+  port: 8080

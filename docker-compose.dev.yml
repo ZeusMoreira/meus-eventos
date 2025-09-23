@@ -1,0 +1,35 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres-eventos
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - eventos-net
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: eventos-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    ports:
+      - "17543:80"
+    depends_on:
+      - postgres
+    networks:
+      - eventos-net
+
+volumes:
+  db_data:
+
+networks:
+  eventos-net:
+    driver: bridge

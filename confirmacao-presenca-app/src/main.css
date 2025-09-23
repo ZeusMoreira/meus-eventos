@@ -1,0 +1,23 @@
+:root {
+  --cor-primaria: #0c8ce9;
+  --preto-tabela: #595555;
+  --cor-sucesso: #4ac959;
+  --cor-branco: #ffffff;
+  --cor-cinza: #d9d9d9;
+  --cinza-campos: #49454f;
+}
+
+html {
+  font-family: 'Jost', sans-serif;
+  font-size: 62.5% !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  font-family: inherit;
+  box-sizing: inherit;
+}

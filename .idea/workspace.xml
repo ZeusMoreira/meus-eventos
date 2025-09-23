@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e75c98c5-444c-45ea-a852-44ff9fdfdeb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/app.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/ConfirmacaoPresencaApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/auth/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/auth/recuperacao/EnvioEmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/auth/recuperacao/RedefinicaoSenhaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/evento/BuscarEventoPorCodigoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/evento/BuscarListagemPaginadaEventosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/evento/CriarEventoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/evento/qrcode/GerarQrCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/participante/BuscarListagemPaginadaParticipantesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/participante/CriarParticipanteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/entrypoint/controller/participante/ExcluirParticipanteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/gateway/dataprovider/adminUser/AdminUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/gateway/dataprovider/eventos/EventoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/adapter/gateway/dataprovider/participantes/ParticipanteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/application/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/application/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/application/config/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/application/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/BuscarEventoPorCodigoOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/BuscarListagemPaginadaEventosOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/BuscarListagemPaginadaParticipantesOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/CriarEventoInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/ErroCampo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/ErroResposta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/EventoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/PaginacaoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/ParticipanteInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/dto/RedefinicaoSenhaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/entities/AdminUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/entities/EventoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/entity/entities/ParticipanteEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/exception/ConflitoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/exception/CpfInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/exception/CredenciaisInvalidasException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/exception/NaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/exception/QrCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/exception/UuidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/auth/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/auth/login/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/auth/recuperacao/EnvioEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/auth/recuperacao/RedefinicaoSenhaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/evento/criar/CriarEventoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/evento/listar/BuscarEventoPorCodigoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/evento/listar/BuscarListagemPaginadaEventosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/evento/qrcode/QrCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/participante/criar/CriarParticipanteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/participante/excluir/ExcluirParticipanteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/participante/listar/BuscarListagemPaginadaParticipantesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/utils/CodigoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/validation/EventoValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/validation/ParticipanteValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/validation/RecuperacaoSenhaValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/resources/database/master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/resources/database/postgresql/001-estrutura-inicial.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/resources/database/postgresql/002-tabela-admin-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/resources/database/postgresql/003-alter-table-admin-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/test/java/com/meuseventos/confirmacao_presenca_api/ConfirmacaoPresencaApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/components/BotaoFormulario.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/components/BotaoIcone.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/components/Formulario.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/components/ModalConfirmacao.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/components/ModalVerMais.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/components/Paginacao.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/components/Textfield.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/composables/useCpf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/composables/useDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/composables/useEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/interceptor/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/area-administrativa/AreaAdministrativa.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/area-publica/ConfirmacaoPresenca.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/area-publica/LoginAdmin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/area-publica/PaginaNaoEncontrada.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/area-publica/QrCode.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/area-publica/ResetSenha.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/evento/AdicaoEvento.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/evento/Evento.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/evento/GerenciamentoEventos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/evento/ListagemEventos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/evento/ListagemUltimosEventos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/participante/AdicaoParticipante.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/pages/participante/ListagemParticipantesTabela.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/stores/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/stores/evento.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/stores/navegacao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/stores/participante.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/stores/qrcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/validations/schemaAdicaoEvento.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/validations/schemaCadastroParticipante.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/validations/schemaLoginAdmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/src/validations/schemaResetSenha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmacao-presenca-app/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventos.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32Q2aqqRDGOjzkFIzPCXj31Y9m4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zeus/Documents/Estudos/eventos/eventos/confirmacao-presenca-api/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1e575d49f799f63c773a608aceda1d43&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zeus\Documents\Estudos\eventos\eventos\confirmacao-presenca-app\src\pages\area-publica" />
+      <recent name="C:\Users\Zeus\Documents\Estudos\eventos\eventos\confirmacao-presenca-app\src\pages\area-administrativa" />
+      <recent name="C:\Users\Zeus\Documents\Estudos\eventos\eventos\confirmacao-presenca-app\src\pages\evento" />
+      <recent name="C:\Users\Zeus\Documents\Estudos\eventos\eventos\confirmacao-presenca-app\src\pages\participante" />
+      <recent name="C:\Users\Zeus\Documents\Estudos\eventos\eventos\confirmacao-presenca-api\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConfirmacaoPresencaApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="EMAIL_APP" value="zeus.moreira111@gmail.com" />
+        <env name="JWT_SECRET" value="K/z16JJfuhJvEEFtgV8A14fUhXCShRQxNCjjCNaid7vjDT1rhu16mp1G4MnlK/uQb1SMaqIzs2YdD+34k5CzpQ==" />
+        <env name="PGADMIN_DEFAULT_EMAIL" value="admin@eventos.com" />
+        <env name="PGADMIN_DEFAULT_PASSWORD" value="admin123" />
+        <env name="POSTGRES_DB" value="eventos-db" />
+        <env name="POSTGRES_PASSWORD" value="postgres" />
+        <env name="POSTGRES_USER" value="postgres" />
+        <env name="SENHA_APP" value="xubpphsoihtzgtxa" />
+      </envs>
+      <module name="confirmacao-presenca-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meuseventos.confirmacao_presenca_api.ConfirmacaoPresencaApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e75c98c5-444c-45ea-a852-44ff9fdfdeb2" name="Changes" comment="" />
+      <created>1757338543630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757338543630</updated>
+      <workItem from="1757338544676" duration="812000" />
+      <workItem from="1757339372812" duration="10386000" />
+      <workItem from="1757372851588" duration="19873000" />
+      <workItem from="1757421505901" duration="1039000" />
+      <workItem from="1757484862679" duration="12663000" />
+      <workItem from="1757498683102" duration="60000" />
+      <workItem from="1757498777064" duration="15215000" />
+      <workItem from="1757577701294" duration="30796000" />
+      <workItem from="1757793774827" duration="17661000" />
+      <workItem from="1757843065370" duration="22587000" />
+      <workItem from="1757938751492" duration="27177000" />
+      <workItem from="1758024574616" duration="607000" />
+      <workItem from="1758114036813" duration="22476000" />
+      <workItem from="1758197304061" duration="23741000" />
+      <workItem from="1758394432482" duration="12234000" />
+      <workItem from="1758552415405" duration="37986000" />
+      <workItem from="1758652936203" duration="948000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.data.domain.PageImpl" memberName="pageable" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

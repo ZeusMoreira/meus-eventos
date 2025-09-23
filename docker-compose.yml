@@ -1,0 +1,46 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres-eventos
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - db_data_prod:/var/lib/postgresql/data
+    networks:
+      - eventos-net
+
+  api:
+    build: ./confirmacao-presenca-api
+    container_name: eventos-api
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
+    depends_on:
+      - postgres
+    networks:
+      - eventos-net
+
+  app:
+    build:
+      context: ./confirmacao-presenca-app
+      args:
+        VITE_API_URL: http://api:8080
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    networks:
+      - eventos-net
+
+volumes:
+  db_data_prod:
+
+networks:
+  eventos-net:
+    driver: bridge
