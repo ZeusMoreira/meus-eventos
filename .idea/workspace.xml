@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75c98c5-444c-45ea-a852-44ff9fdfdeb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/auth/recuperacao/EnvioEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/confirmacao-presenca-api/src/main/java/com/meuseventos/confirmacao_presenca_api/domain/service/auth/recuperacao/EnvioEmailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +128,7 @@
       <workItem from="1758394432482" duration="12234000" />
       <workItem from="1758552415405" duration="37986000" />
       <workItem from="1758652936203" duration="15359000" />
-      <workItem from="1758740201167" duration="820000" />
+      <workItem from="1758740201167" duration="1428000" />
     </task>
     <servers />
   </component>

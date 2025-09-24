@@ -10,11 +10,11 @@
       texto-botao="Entrar"
     >
       <template #campos>
-        <textfield name="email" label="Email" placeholder="Digite seu email" />
+        <textfield name="email" label="Email" placeholder="Digite o seu email" />
         <textfield
           name="senha"
           label="Senha"
-          placeholder="Digite sua senha"
+          placeholder="Digite a sua senha"
           :type="type"
           :icon-right="iconRight"
           @click-icon-right="alternarVisibilidadeSenha"
