@@ -21,9 +21,6 @@ public class EnvioEmailService {
     private final AdminUserRepository repository;
     private final EmailService emailService;
 
-    @Value("${spring.mail.username}")
-    private String adminEmail;
-
     @Value("${app.frontend-url}")
     private String url;
 
