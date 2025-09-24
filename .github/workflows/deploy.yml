@@ -19,8 +19,10 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_KEY }}
           script: |
-            cd /opt/meus-eventos/confirmacao-presenca-api
-            ./mvnw clean package -DskipTests
             cd /opt/meus-eventos
+            git pull origin master
+            cd confirmacao-presenca-api
+            ./mvnw clean package -DskipTests
+            cd ..
             docker compose down
             docker compose up -d --build
