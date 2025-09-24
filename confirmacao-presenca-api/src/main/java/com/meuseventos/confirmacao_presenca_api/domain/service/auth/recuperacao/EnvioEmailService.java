@@ -11,6 +11,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -27,16 +28,19 @@ public class EnvioEmailService {
     private String url;
 
     public void solicitarResetSenha() {
-        AdminUserEntity usuario = repository.findByEmail(adminEmail)
-                .orElseThrow(() -> new NaoEncontradoException("Usuário admin não encontrado"));
+        List<AdminUserEntity> usuario = repository.findAll();
+
+        if(usuario.isEmpty()) {
+            throw new NaoEncontradoException("Usuário admin não encontrado");
+        }
 
         String token = UUID.randomUUID().toString();
-        usuario.setResetToken(token);
-        usuario.setResetExpiracao(LocalDateTime.now().plusMinutes(15));
-        repository.save(usuario);
+        usuario.get(0).setResetToken(token);
+        usuario.get(0).setResetExpiracao(LocalDateTime.now().plusMinutes(15));
+        repository.save(usuario.get(0));
 
         String link = url + "/resetar-senha?token=" + token;
-        emailService.enviarEmail(usuario.getEmail(),
+        emailService.enviarEmail(usuario.get(0).getEmail(),
                 "Redefinição de senha",
                 "Clique no link para redefinir sua senha: " + link);
     }
