@@ -35,10 +35,10 @@ spring:
             trust: smtp.gmail.com
 
 cors:
-  allowed-origins: "http://72.60.142.67"
+  allowed-origins: "https://eventops.com.br,https://www.eventops.com.br"
 
 app:
-  frontend-url: http://72.60.142.67
+  frontend-url: https://eventops.com.br
   jwt-secret: ${JWT_SECRET}
   jwt-expiration-ms: 1800000
 
