@@ -34,6 +34,9 @@ services:
         VITE_API_URL: /api
     ports:
       - "80:80"
+      - "443:443"
+    volumes:
+      - ./letsencrypt:/etc/letsencrypt
     depends_on:
       - api
     networks:
